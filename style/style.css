@@ -59,6 +59,9 @@ nav ul {
 
 }
 
+.text-center {
+    text-align: center;
+}
 
 .btn-primary {
     background-color: #FD6E0A;
@@ -115,6 +118,11 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 /* about section */
 .about {
     border-radius: 10px;
@@ -131,4 +139,17 @@ main {
 
 .item-description {
     font-weight: 600;
+}
+
+/* what i do section */
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-top: 50px;
 }
