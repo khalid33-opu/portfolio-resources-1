@@ -4,6 +4,7 @@
 .open-sans {
     font-family: "Open Sans", sans-serif;
 }
+
 /* nav section start */
 
 #r {
@@ -41,9 +42,27 @@ nav ul {
     align-items: center;
 }
 
+/* some common class */
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+
+}
+
+
 .btn-primary {
     background-color: #FD6E0A;
-    font-size:20px ;
+    font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
     padding: 18px 35px;
@@ -56,31 +75,60 @@ nav ul {
 /* nav section end */
 
 /* banner section start */
-.banner-header{
+.banner-header {
     background-image: url("../images/developer.png"), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left , bottom right;
+    background-position: top left, bottom right;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-    
-}
-.banner-contain{
-   max-width: 580px;
-   margin-left:220px;
+
 }
 
-.banner-head{
+.banner-contain {
+    max-width: 580px;
+    margin-left: 220px;
+}
+
+.banner-head {
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: -30px;
 }
-.head-title{
+
+.head-title {
     font-size: 85px;
     font-weight: bold;
+    margin-top: 20px;
+
 }
-.banner-pc{
+
+.banner-pc {
     width: 584px;
     margin-right: 35px;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    border: 2px solid black;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
 }
